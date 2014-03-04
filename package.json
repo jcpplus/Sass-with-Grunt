@@ -1,0 +1,10 @@
+{
+    "name": "recruiter-css",
+    "description": "recruitme recruiter css assets",
+    "private": true,
+    "devDependencies": {
+    	"grunt": "~0.4.1",
+		  "grunt-contrib-watch": "~0.4.0",
+    	"grunt-contrib-sass" : "~0.6.0"
+    }
+}

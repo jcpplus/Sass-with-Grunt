@@ -1,0 +1,18 @@
+.controls.error input, .section-wrapper .span6.error input{
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.control-group.error .control-label,
+.control-group.error .help-block,
+.control-group.error .help-inline{
+    font-family: "TStdLightCn","Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.form-horizontal input + .help-block,
+.form-horizontal select + .help-block,
+.form-horizontal textarea + .help-block,
+.form-horizontal .uneditable-input + .help-block,
+.form-horizontal .input-prepend + .help-block,
+.form-horizontal .input-append + .help-block{
+    margin-top: 0;
+}

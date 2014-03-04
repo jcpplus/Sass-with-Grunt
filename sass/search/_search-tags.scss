@@ -1,0 +1,52 @@
+/* Search Tags */
+/*// import me!*/
+.tags{
+  display: inline-block;
+  padding: 4px 6px;
+  color: rgb(119, 119, 119);
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(213, 213, 213);
+}
+.tags .tag{
+  display: inline-block;
+  position: relative;
+  font-size: 13px;
+  font-weight: normal;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: rgb(145, 184, 208);
+  color: rgb(255, 255, 255);
+  text-shadow: rgba(0, 0, 0, 0.14902) 1px 1px 1px;
+  padding: 4px 22px 5px 9px;
+  margin-bottom: 3px;
+  margin-right: 3px;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+}
+.tags .tag .close {
+  font-size: 15px;
+  line-height: 20px;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+  text-shadow: none;
+  float: none;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 18px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.tags .tag .close:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.tags .tag .tag-title {
+  font-weight: bold;
+  text-transform: capitalize;
+}

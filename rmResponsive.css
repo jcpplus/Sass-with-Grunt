@@ -1,0 +1,85 @@
+/*! recruiter-css - vrecruitme recruiter css assets - 2014-03-04
+* Copyright (c) 2014 */
+@media (max-width: 1200px) {
+  .table thead th {
+    text-align: center; } }
+@media (min-width: 768px) and (max-width: 979px) {
+  .mainTwoOptions-link {
+    padding: 100px 0; }
+
+  .mainTwoOptions {
+    padding: 0 0 40px 0; }
+
+  .mainTwoOptions-option .span6:first-child {
+    margin-bottom: 10px; }
+
+  .mainTwoOptions-link h1 {
+    font-size: 25px;
+    line-height: 25px; }
+
+  .mainTwoOptions-link.active {
+    padding: 150px 0 50px 0; }
+
+  .mainIconWrapper .icon-user,
+  .mainIconWrapper .icon-group {
+    font-size: 100px;
+    display: block; }
+
+  .loginDetailList {
+    margin: 0; }
+
+  .header-font {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    font-size: 26px; }
+
+  .section-wrapper {
+    padding: 0 10px; }
+
+  .header-para {
+    margin-bottom: 0; }
+
+  .looking-something {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    line-height: 24px; }
+
+  /*recruiter register flow, the 4 pages*/
+  .pageHeader {
+    padding-top: 10px;
+    padding-bottom: 40px; }
+
+  .step-header {
+    font-size: 22px; }
+
+  .stepContainer legend {
+    font-size: 20px; }
+
+  /*candidate profile */
+  .profileMainSection {
+    padding: 0; }
+
+  .profileMainSection .nav a {
+    padding: 4px 2px;
+    font-size: 12px; }
+
+  .profileMainSection .portfolioTitle {
+    font-size: 20px;
+    padding: 5px 10px; }
+
+  .search-title div {
+    display: inline-block; }
+
+  .stepContainer .row-fluid .stepPro {
+    width: 720px;
+    margin-left: 0; }
+
+  .table th, .table td {
+    padding: 0; }
+
+  .section-wrapper .clearfix .stepPro {
+    width: 100%;
+    margin-left: 0; }
+
+  .input-prepend.input-append {
+    padding-left: 0; } }

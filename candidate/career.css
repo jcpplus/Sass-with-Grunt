@@ -1,0 +1,271 @@
+/*! recruiter-css - vrecruitme recruiter css assets - 2014-03-04
+* Copyright (c) 2014 */
+@charset "UTF-8";
+.bgStyle {
+  fill: none;
+  stroke-width: 2px;
+  stroke: #a1bbdb; }
+
+rect {
+  fill: none; }
+
+.careerBgStyle {
+  fill: #f3f3f3; }
+
+.career_chart_bg {
+  fill: #f3f3f3;
+  /*#f8f8f8;*/ }
+
+.career_xAxis path {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges; }
+
+.career_xAxis line {
+  fill: none;
+  stroke: #c9c6c3;
+  shape-rendering: crispEdges; }
+
+.career_xAxis line.baseline {
+  stroke: black;
+  stroke-width: 2px; }
+
+.career_xAxis text {
+  fill: black;
+  stroke: none;
+  font-family: Arial; }
+
+.career_xAxis rect.xAxisBg {
+  fill: #f8f8f8; }
+
+.chartBgStyle {
+  /*   fill: none;*/ }
+
+.career_bg {
+  fill: #f3f3f3; }
+
+.questionGroupStyle text {
+  font-size: 8px;
+  color: #000;
+  fill-opacity: 1; }
+
+/*时间-薪水曲线样式*/
+path.career_color1 {
+  fill: none;
+  stroke: #31a4d2;
+  stroke-width: 2px; }
+
+/*虚线样式*/
+line.career_color1 {
+  stroke: #31a4d2;
+  stroke-width: 2px; }
+
+/*文字样式*/
+p.career_color1 {
+  color: #31a4d2;
+  font-size: 18px;
+  font-family: Arial; }
+
+.career_color1 {
+  fill: #31a4d2;
+  fill-opacity: 0.2; }
+
+.career_color1 rect {
+  fill: #31a4d2; }
+
+.career_color1 circle {
+  fill-opacity: 1; }
+
+.career_color1 line.bar {
+  stroke: #31a4d2;
+  shape-rendering: crispEdges; }
+
+.career_color1 text.title {
+  fill: #000; }
+
+.career_color1 rect.bar {
+  fill: #4caaa8; }
+
+.career_color1 rect.title {
+  fill: none; }
+
+/*时间-薪水曲线样式*/
+path.career_color2 {
+  fill: none;
+  stroke: green;
+  stroke-width: 2px; }
+
+/*虚线样式*/
+line.career_color2 {
+  stroke: green;
+  stroke-width: 2px; }
+
+/*文字样式*/
+p.career_color2 {
+  color: green;
+  font-size: 18px;
+  font-family: Arial; }
+
+.career_color2 {
+  fill: green;
+  fill-opacity: 0.2; }
+
+.career_color2 circle {
+  fill-opacity: 1; }
+
+.career_color2 text.title {
+  fill: #000; }
+
+.career_color2 rect {
+  fill: green; }
+
+.career_color2 line.bar {
+  stroke: green;
+  shape-rendering: crispEdges; }
+
+.career_color2 rect.bar {
+  fill: green; }
+
+.career_color2 rect.title {
+  fill: none; }
+
+/*时间-薪水曲线样式*/
+path.career_color3 {
+  fill: none;
+  stroke: #24b572;
+  stroke-width: 2px; }
+
+/*虚线样式*/
+line.career_color3 {
+  stroke: #24b572;
+  stroke-width: 2px; }
+
+/*文字样式*/
+p.career_color3 {
+  color: #24b572;
+  font-size: 18px;
+  font-family: Arial; }
+
+.career_color3 {
+  fill: #24b572;
+  fill-opacity: 0.15; }
+
+.career_color3 circle {
+  fill-opacity: 1; }
+
+.career_color3 line.bar {
+  stroke: #24b572;
+  shape-rendering: crispEdges; }
+
+.career_color3 text.title {
+  fill: #000; }
+
+.career_color3 rect {
+  fill: #24b572; }
+
+rect.career_question_title {
+  fill: none; }
+
+.career_color3 rect.title {
+  fill: none; }
+
+.career_color3 rect.img {
+  fill: none; }
+
+#careerTrajectory {
+  height: 850px; }
+
+.careerTrajectoryLoader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: #999999;
+  border: none;
+  white-space: nowrap; }
+
+.careerTrajectoryLoader .load-info {
+  margin-top: 250px;
+  font-size: 18px; }
+
+.careerTrajectoryLoader .load-spinner {
+  height: 11px;
+  width: 16px;
+  display: inline-block;
+  margin-left: 5px;
+  background-image: url("../../images/spinner.gif"); }
+
+.career-time-tick {
+  font-size: 15px;
+  font-weight: bold; }
+
+.companyTimeTick {
+  font-size: 12px;
+  fill-opacity: 1; }
+
+.companySplit {
+  stroke-dasharray: 1, 8;
+  stroke-linecap: round; }
+
+.career_question_title {
+  font-size: 9px;
+  fill: #555;
+  font-family: Arial;
+  font-weight: 700; }
+
+.company_name {
+  font-family: "Open Sans", Arial;
+  font-size: 12px;
+  font-weight: bold;
+  fill-opacity: 1; }
+
+text {
+  fill-opacity: 1; }
+
+text.career-salary-point {
+  font-size: 12px;
+  fill: #333; }
+
+.question_content_rect {
+  cursor: pointer; }
+
+.salary-point:hover, .endPoint:hover {
+  cursor: pointer; }
+
+circle.salary-point, rect.salary-point {
+  fill-opacity: 1; }
+
+circle.endPoint, rect.endPoint {
+  fill: #000;
+  fill-opacity: 1; }
+
+div.question_content {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold; }
+
+div.question_content p {
+  padding-left: 4px;
+  word-wrap: break-word; }
+
+div.question_content {
+  cursor: pointer; }
+
+div.question_content:hover {
+  opacity: 0.4; }
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  background: #ccc;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  color: #FFF; }
+
+div.ellipsis {
+  padding: 0 5px;
+  font-size: 12px; }

@@ -1,0 +1,190 @@
+@charset "utf-8";
+
+.sub-jumbotron{
+    border-bottom: none;
+}
+.sub-jumbotron ul li{
+    margin-right: 5px;
+}
+.pageHeader ul{
+    text-align:center;
+}
+.section-wrapper{
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+.white-card{
+    margin-bottom: 10px;
+}
+.no-box-shadow {
+    box-shadow: none;
+}
+.form-horizontal .control-label{
+    text-align: center;
+}
+.form-horizontal .controls{
+    margin-left: 0;
+}
+.control-label [class^="icon-"]:hover{
+    color: #333;
+}
+.profile-reference-info{
+    padding-left: 45px;
+    font-family: "HelveticaNeueL";
+}
+.controls .addOne{
+    margin-right: 10px;
+}
+.sample-area{
+    padding-bottom: 10px;
+}
+.ace-file-input {
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    margin-bottom: 9px;
+}
+.ace-file-input input[type=file] {
+    position: fixed;
+    z-index: -2;
+    opacity: 0;
+}
+.ace-file-input input[type=file] {
+    width: 100%\0;
+    height: 30px\0;
+    position: absolute\0;
+    z-index: 1\0;
+    filter: alpha(opacity=0);
+    cursor: pointer\0;
+}
+.ace-file-input label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all .15s;
+    -moz-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
+    vertical-align: middle;
+}
+.ace-file-input label span {
+    display: inline-block;
+    height: 28px;
+    max-width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 28px;
+    color: #888;
+    font-size: 13px;
+    position: static;
+    padding-left: 30px;
+}
+.ace-file-input label {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #d5d5d5;
+    cursor: pointer;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all .15s;
+    -moz-transition: all .15s;
+    -o-transition: all .15s;
+    transition: all .15s;
+}
+.ace-file-input label:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #f59942;
+}
+.ace-file-input label [class*="icon-"] {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 22px;
+    width: 22px;
+    text-align: center;
+    font-family: FontAwesome;
+    font-size: 13px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    -webkit-transition: all .1s;
+    -moz-transition: all .1s;
+    -o-transition: all .1s;
+    transition: all .1s;
+    background-color: #d1d1d1;
+}
+.ace-file-input label span:after {
+    display: inline-block;
+    content: attr(data-title);
+}
+.ace-file-input label:before {
+    display: inline-block;
+    content: attr(data-title);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 0 8px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #b3c979;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-size: 12px;
+    border: 2px solid #FFF;
+    border-left-width: 4px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background-color: #b3c979;
+    background-image: -moz-linear-gradient(top, #b9cf7f, #aabf70);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b9cf7f), to(#aabf70));
+    background-image: -webkit-linear-gradient(top, #b9cf7f, #aabf70);
+    background-image: -o-linear-gradient(top, #b9cf7f, #aabf70);
+    background-image: linear-gradient(to bottom, #b9cf7f, #aabf70);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffb9cf7f', endColorstr='#ffaabf70', GradientType=0);
+    border-color: #aabf70 #aabf70 #859c46;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.brand-video{
+    width: 100%;
+    height: 320px;
+}
+
+/*my profile*/
+.p-print{
+    padding: 10px;
+}
+.p-print i{
+    margin-right: 2px;
+}
+.printHeader{
+    display: none;
+}
+.print-only{
+    display: none;
+}
+.print-sum h4{
+    color: #8a8a8a;
+}
